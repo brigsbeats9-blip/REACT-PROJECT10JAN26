@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Nav from "./components/Nav";
 
-function App() {
+
+//import Footer from "./components/Footer/Footer";
+//import { BrowerRouter as Router, Route, Routes } from "react-router-dom";
+//import Home from "./pages/Home/Home";
+//import Books from "./pages/Books/Books";
+//import { books } from "./data/books";
+//import BookInfo from "./pages/BookInfo/BookInfo";
+
+/*function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
     </div>
   );
 }
+
+export default App;*/
+
+function App() {
+  return (
+    <div style={{ background: 'red', color: 'white', padding: '40px' }}>
+      APP IS RENDERING
+    </div>
+  );
+}
+
 
 export default App;
