@@ -8,9 +8,6 @@ import Books from "./Pages/Books";
 //import { library } from "@fortawesome/fontawesome-svg-core";
 //import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-
-
-
 //library.add(faBars);
 
 //import Footer from "./components/Footer/Footer";
@@ -25,14 +22,9 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-
-        <Routes>
-          
-          <Route path="/" exact component={Home} />
-          <Route path="/books" component={Books} />
-          
-        </Routes>
-        <Footer />
+        <Route path="/" exact component={Home} />
+        <Route path="/books" component={Books} />
+       <Footer />
       </div>
     </Router>
   );
