@@ -464,11 +464,27 @@ FOOTER
 */
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: #242424;
 }
 
+/*.footer__container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 24px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}*/
+
 .footer__logo {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__logo--img {
@@ -483,6 +499,10 @@ footer {
 
 .footer__list {
   margin: 20px 0 24px 0;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__link {
