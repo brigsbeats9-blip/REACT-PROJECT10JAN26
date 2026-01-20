@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Book from "./ui/Books";
+import Book from "./ui/Book";
 //import data from '../data';
 import { books } from "../data";
 
